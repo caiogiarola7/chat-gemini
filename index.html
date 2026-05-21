@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat com IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">Chat com Google Gemini</div>
+
+        <div class="chat-box" id="chat-box">
+            <!-- As mensagens vão aparecer aqui dinamicamente-->
+       </div class="message bot">Olá! Como posso ajudar você hoje?</div>
+    </div>
+
+    <div class="loading text" id="loading indicator">A IA está digitando...</div>
+
+    <form class="chat-input-container" id="chat-form">
+        <input type="text" id="user-input" placeholder="Digite sua mensagem..." autocomplete="off" required>
+        <button type="submitt" id="send-btn">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
